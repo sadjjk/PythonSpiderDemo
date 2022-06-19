@@ -41,7 +41,7 @@ POST请求 请求参数
 
 当然也有更有优雅的方法 用Python复写JS加密过程 但对Python和JS要有一定掌握
 
-1. 根据音频后缀名搜索对应接口
+##### 1. 根据音频后缀名搜索对应接口
 
    ![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3dhs45ivdj22y40ow494.jpg)
 
@@ -49,7 +49,7 @@ POST请求 请求参数
 
    ![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3dhi4nsl4j21wm070tbk.jpg)
 
-2.搜索请求参数关键词
+##### 2.搜索请求参数关键词
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3dhwkj20mj22ja0u0nck.jpg)
 
@@ -85,7 +85,7 @@ e9f.data = j9a.cr0x({
 
 加密的主要参数`i9b`这个字典 字典中有歌曲的id 其余参数均为常量
 
-3.搜索关键词`asrsea`
+##### 3.搜索关键词`asrsea`
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3diorj0lbj21580tsq7n.jpg)
 
@@ -97,7 +97,7 @@ e9f.data = j9a.cr0x({
 
 即请求接口对应的参数  `params`和`encSecKey`
 
-4.扣JS源码 安装`CryptoJS`
+##### 4.扣JS源码 安装`CryptoJS`
 
 将上述`a、b、c、d`等函数 复制粘贴至新建的js文件中
 
@@ -143,7 +143,7 @@ npm init -y
 "private": true
 ```
 
-5.缺啥补啥 继续无脑扣js
+##### 5.缺啥补啥 继续无脑扣js
 
 安装好`CryptoJS`后继续node调试
 
@@ -159,7 +159,7 @@ npm init -y
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3djfn47qij22an0u0tgm.jpg)
 
-6.封装函数 发起请求
+##### 6.封装函数 发起请求
 
 ```python
 import requests
@@ -184,7 +184,7 @@ if __name__ == '__main__':
 
 #### 爬虫源码
 
-
+[Github](https://github.com/sadjjk/PythonSpiderDemo/blob/master/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90/163music.py)
 
 #### 总结
 
