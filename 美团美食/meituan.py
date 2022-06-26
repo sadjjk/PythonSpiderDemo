@@ -304,6 +304,6 @@ def get_meituan_meishi_info(userId, Cookie, city_name='北京'):
 
 if __name__ == '__main__':
     response = get_meituan_meishi_info(city_name='杭州',
-                                       userId=139904281,
-                                       Cookie='IJSESSIONID=node0wcxzgc0cic20vyecpz0k383q40425389; iuuid=34CD0DE6A276A460EAA64581C74E9703D6C64A053A7C61855F5C0333F571550D; _lxsdk_cuid=1817b14af6fc8-0e498d6daf4fb2-1f3d6851-1fa400-1817b14af6fc8; _lxsdk=34CD0DE6A276A460EAA64581C74E9703D6C64A053A7C61855F5C0333F571550D; webp=1; i_extend=H__a100001__b1; __utma=74597006.2111471181.1655627363.1655627363.1655627363.1; __utmc=74597006; __utmz=74597006.1655627363.1.1.utmcsr=fsoufsou.com|utmccn=(referral)|utmcmd=referral|utmcct=/; latlng=30.328878,120.180559,1655627362846; ci3=1; uuid=69456d5290bb4d5c8610.1655627397.1.0.0; _lx_utm=utm_source%3Dfsoufsou.com%26utm_medium%3Dreferral%26utm_content%3D%252F; mtcdn=K; _hc.v=a843e29d-edeb-2f43-46e8-12ae54599804.1655627523; lat=30.284135; lng=120.188905; client-id=fcf8d672-1cc9-4213-90e7-0ad756f191f8; cityname=%E5%8C%85%E5%A4%B4; lt=c1cdWYvK0FmhT8fWfA209hcLudAAAAAAexIAAA00Xa3nY8Rao1bGQU2h7ZNfDuAwXkT9EY-GRnm4S9ZcNUxw-0u9085Oyrsw2mbwmA; u=139904281; n=fPE197048752; token2=c1cdWYvK0FmhT8fWfA209hcLudAAAAAAexIAAA00Xa3nY8Rao1bGQU2h7ZNfDuAwXkT9EY-GRnm4S9ZcNUxw-0u9085Oyrsw2mbwmA; unc=fPE197048752; ci=50; rvct=50%2C140; __mta=217881257.1655627408508.1656224508915.1656225299090.11; firstTime=1656225305981; _lxsdk_s=1819e907cc5-b2f-f3f-b4f%7C%7C73')
+                                       userId=userId,
+                                       Cookie='Cookie')
     print(json.dumps(response, indent=4, ensure_ascii=False))
